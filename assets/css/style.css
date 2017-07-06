@@ -84,7 +84,7 @@ p {
     -moz-transform: translate(0px, -10px);
     -ms-transform: translate(0px, -10px);
     -o-transform: translate(0px, -10px);
-    transform: translate(0px, -10px);
+    transform: translate(0px, -7px);
 }
 
 img {

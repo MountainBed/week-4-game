@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- External Javascript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 
@@ -31,12 +32,12 @@
         <br>
     </div>
     <div class="container">
-        <div class="displayRandom">Random number:</div>
+        <div class="displayRandom">Random number: <span id="dispRand"></span></div>
         <div class="record">
             <p id="message"></p>
-            <p>Wins: </p>
+            <p>Wins: <span id="winTotal"></span></p>
             <br>
-            <p>Losses: </p>
+            <p>Losses: <span id="lossTotal"></span></p>
         </div>
     </div>
     <div class="container">
@@ -47,7 +48,7 @@
     </div>
     <div class="container">
         <div id="userScore">
-            Sum:
+            Sum: <span id="sum"></span>
         </div>
     </div>
 </body>
